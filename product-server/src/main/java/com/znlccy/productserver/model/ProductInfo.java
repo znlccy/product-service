@@ -15,9 +15,11 @@ import java.util.Date;
  */
 
 @Data
+@Entity
 public class ProductInfo {
 
     /* 主键 */
+    @Id
     private String productId;
 
     /* 名称 */

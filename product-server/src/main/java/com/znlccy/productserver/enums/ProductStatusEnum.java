@@ -5,17 +5,17 @@ import lombok.Getter;
 
 /**
  * @Author: Administrator
- * @Datetime: 2018/12/4-14:36
+ * @Datetime: 2018/12/4-16:22
  * @Version: v1.0.0
- * @Comment: 结果状态枚举
+ * @Comment: 商品状态枚举
  */
 
 @Getter
-public enum  ResultStatusEnum {
+public enum ProductStatusEnum {
 
-    /* 声明枚举类型 */
-    SUCCESS(200, "成功"),
-    FAILED(404, "失败");
+    /* 声明产品状态 */
+    UP(0,"上架"),
+    DOWN(1,"下架");
 
     /* 声明状态码 */
     private Integer code;
@@ -23,8 +23,8 @@ public enum  ResultStatusEnum {
     /* 声明状态信息 */
     private String message;
 
-    /* 声明结果状态枚举构造函数 */
-    ResultStatusEnum(Integer code, String message) {
+    /* 声明默认构造函数 */
+    ProductStatusEnum(Integer code, String message) {
         this.code = code;
         this.message = message;
     }
