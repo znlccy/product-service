@@ -7,4 +7,5 @@ package com.znlccy.productserver.repository;
  * @Comment: 产品数据库映射接口
  */
 public interface ProductRepository {
+
 }
