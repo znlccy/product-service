@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.znlccy</groupId>
-    <artifactId>product-client</artifactId>
+    <artifactId>product-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>product-client</name>
+    <name>product-server</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
